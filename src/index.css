@@ -1,0 +1,1018 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: "Public Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 2.76rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1.87rem;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: .4px;
+  margin-bottom: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap {
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.common-container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.grid-three-col {
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.grid-two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* ----------------------------------------------------  */
+
+
+/* ________________________________ 
+Our Why -Dex Aunctn CSS code starts here 
+-------------------------- */
+
+.why-dex-aunction-comp {
+  position: relative;
+  width: 100%;
+  background-color: #efefef;
+  padding: 4.5rem 1.87rem;
+
+}
+
+.why-dex-aunction-flex-top-flex-bx {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+.why-dex-aunction-label-bx {
+  position: relative;
+  width: max-content;
+  padding: .8rem 1.6rem;
+  border: .1rem solid #5300CC;
+  border-radius: 4.8rem;
+  background-color: transparent;
+  transition: 500ms ease;
+
+
+}
+
+.why-dex-aunction-label-bx:hover{
+  background-color: #5300CC;
+}
+
+.why-dex-aunction-label-bx:hover span{
+  color: #fff;
+
+}
+
+.market-size-text:hover{
+  background-color: #fff;
+}
+
+.market-size-text:hover span{
+  color: #5300CC;
+}
+
+
+.why-dex-aunction-label-bx span {
+  display: inline-block;
+  width: max-content;
+  color: #5300CC;
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 32.4px */
+  text-transform: uppercase;
+}
+
+.right-why-dexaunctn-title-bx {
+  position: relative;
+  max-width: 70rem;
+}
+
+.right-why-dexaunctn-title-bx h3 {
+  color: #110F42;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+  /* 75.6px */
+  letter-spacing: -1.12px;
+}
+
+.why-dexaunctn-cards-grid {
+  position: relative;
+  width: 100%;
+  margin-top: 9rem;
+
+}
+
+.why-dexaunctn-bx {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: .65rem;
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10rem;
+  overflow: hidden;
+  transition: 500ms ease;
+
+}
+
+.why-dexaunctn-bx:hover {
+  transform: translateY(-30px);
+  box-shadow: rgba(255, 255, 255, 0.473) 0px 1px 1px 0px inset, rgba(198, 198, 199, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.why-dexaunctn-img {
+  position: relative;
+  width: 12rem;
+}
+
+.why-dexaunctn-img img {
+  width: 100%;
+  height: auto;
+}
+
+.why-dexaunctn-info h5 {
+  font-size: 1.87rem;
+  font-weight: 700;
+  letter-spacing: .45px;
+  margin-bottom: 1rem;
+  color: #110F42;
+
+}
+
+.why-dexaunctn-info p {
+  color: #6A6D77;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 21.6px */
+}
+
+.svg-bx {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.svg-bx svg {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* ________________________________ 
+Our Why -Dex Aunctn CSS code end here 
+-------------------------- */
+
+/* ________________________________ 
+Our how it work CSS code starts here 
+-------------------------- */
+
+.how-it-work-comp {
+  position: relative;
+  width: 100%;
+  padding: 6rem 1.87rem;
+  z-index: 1000;
+}
+
+
+
+.hw-it-wrk-flex-main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 120rem;
+  margin: 6rem auto 0 auto;
+}
+
+.hw-it-wrk-flex-main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 40%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: url('../public/images/bannerbg.png')no-repeat center center/cover;
+  z-index: -1;
+}
+
+.left-hw-it-wrk-bx {
+  position: relative;
+  width: 229px;
+  height: 513px;
+}
+
+.left-hw-it-wrk-bx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.center-hiw-flex-bx {
+  position: relative;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-hiw-bx {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.67rem;
+
+}
+
+.center-hiw-round-bx {
+  position: relative;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  border-radius: 240px;
+  border: 1px solid #E4E4E4;
+  background: #FEFFFF;
+
+}
+
+.center-hiw-round-bx img {
+  width: 7.55rem;
+}
+
+.center-hiw-round-bx h6 {
+  font-size: 1.78rem;
+  font-weight: 700;
+  color: #110F42;
+
+}
+
+.center-hiw-bx p {
+  color: #5300CC;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  max-width: 25rem;
+}
+
+.right-hiw-main-flex {
+  position: relative;
+  padding: 3.5rem 3.5rem;
+  background-color: #feffff;
+  border: .1rem solid #e4e4e4;
+  border-radius: .87rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.hiw-comn-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.hiw-comn-bx {
+  position: relative;
+  width: max-content;
+  padding: 2rem 2rem;
+  background-color: #fff;
+  border: .1rem solid #e4e4e4;
+  border-radius: .76rem;
+
+}
+
+
+.hiw-comn-bx p {
+  color: #110F42;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+  /* 27px */
+  max-width: 15rem;
+  margin-bottom: 0;
+}
+
+.hiw-comn-main h6 {
+  color: #5300CC;
+
+  text-align: center;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 125% */
+  max-width: 17rem;
+
+}
+
+.hiw-comn-img {
+  width: 11rem;
+  margin: 0 auto;
+}
+
+.hiw-comn-img img {
+  width: 100%;
+  height: auto;
+}
+
+.element-arow-bx {
+  position: absolute;
+  top: 9rem;
+  left: 26rem;
+  width: 19rem;
+  animation: movearrow 1s linear infinite alternate;
+}
+
+
+
+.element-arow-bx2 {
+  position: absolute;
+  top: 5rem;
+  left: 67rem;
+  width: 19rem;
+  animation: movearrow 1s linear infinite alternate;
+
+}
+
+@keyframes movearrow {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+.element-arow-bx3 {
+  position: absolute;
+  top: 50%;
+  left: 97%;
+  width: 8.5rem;
+  transform: translateY(-50%);
+  animation: movearrowblock 1s linear infinite alternate;
+
+}
+
+@keyframes movearrowblock {
+  0% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(-40%);
+  }
+}
+
+.element-arow-bx4 {
+  position: absolute;
+  bottom: 10rem;
+  left: 70rem;
+  width: 19rem;
+  animation: movearrowinline 1s linear infinite alternate;
+
+}
+
+.element-arow-bx5 {
+  position: absolute;
+  bottom: 10rem;
+  left: 28rem;
+  width: 19rem;
+  animation: movearrowinline 1s linear infinite alternate;
+
+}
+
+
+@keyframes movearrowinline {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+.element-arow-bx img,
+.element-arow-bx2 img,
+.element-arow-bx3 img,
+.element-arow-bx4 img,
+.element-arow-bx5 img {
+  width: 100%;
+}
+
+/* ________________________________ 
+Our how it work CSS code end here 
+-------------------------- */
+
+/* ________________________________ 
+Our Market Size CSS code starts here 
+-------------------------- */
+
+.market-size-comp {
+  position: relative;
+  width: 100%;
+  padding: 6rem 1.87rem;
+  background-color: #5300CC;
+
+}
+
+.market-size-text {
+  border-color: #fff;
+  margin-bottom: 6rem;
+}
+
+.market-size-text span {
+  color: #fff;
+  font-weight: 500;
+}
+
+.global-market-size-info-flex-bx {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+
+}
+
+.global-market-size-info-flex-bx h3 {
+  color: #FFF;
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 135%;
+  /* 75.6px */
+  letter-spacing: -1.12px;
+  max-width: 40rem;
+}
+
+.global-market-size-info-flex-bx p {
+  max-width: 60rem;
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7;
+  /* 27px */
+}
+
+
+.sale-volume-main-bx {
+  position: relative;
+  width: 100%;
+  margin-top: 20rem;
+  z-index: 100;
+
+}
+
+.globe-img {
+  position: absolute;
+  top: 37%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 676px;
+  height: 645px;
+  background: url('../public/images/Layer-2.png')no-repeat center center/cover;
+}
+
+
+/* .globe-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.sale-valume-text-bx {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.sale-valume-text-bx h6 {
+  color: #FFF;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: .55px;
+  line-height: 120%;
+  /* 38.4px */
+  text-transform: uppercase;
+  margin-bottom: .78rem;
+}
+
+.sale-valume-text-bx span {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .55px;
+  line-height: 120%;
+  /* 21.6px */
+}
+
+.sales-volme-grid {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.sales-volume-bx {
+  position: relative;
+  width: 100%;
+  background-color: #8850EB;
+  border-radius: .8rem;
+  padding: 4rem 3rem;
+
+}
+
+.sales-volume-bx p {
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 120%;
+  /* 21.6px */
+  text-transform: capitalize;
+}
+
+.sales-volume-bx h5 {
+  color: #FFF;
+  text-align: right;
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: .55px;
+  line-height: 120%;
+  /* 76.8px */
+  margin-top: 3rem;
+}
+
+/* ________________________________ 
+Our Market Size CSS code end here 
+-------------------------- */
+
+
+/* ________________________________ 
+Our contact comp CSS code starts here 
+-------------------------- */
+
+.contact-comp {
+  position: relative;
+  width: 100%;
+  padding: 6rem 1.87rem;
+
+}
+
+.contact-text-flex-bx {
+  margin-top: 5rem;
+}
+
+.contact-text-flex-bx h3 {
+  color: #110F42;
+  max-width: 50rem;
+}
+
+.contact-text-flex-bx p {
+  color: #6A6D77;
+
+}
+
+
+.contact-grid {
+  position: relative;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.left-contact-info {
+  position: relative;
+  width: 100%;
+}
+
+.cont-det-bx {
+  margin-bottom: 5rem;
+}
+
+.cont-det-bx span,
+.right-cont-form span {
+  color: #6A6D77;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 135%;
+  /* 17.55px */
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.cont-det-bx p {
+  color: #110F42;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+  /* 21.6px */
+}
+
+.cont-det-bx>p~p {
+  max-width: 46rem;
+}
+
+.right-cont-form {
+  position: relative;
+  width: 100%;
+}
+
+.right-cont-form span {
+  margin-bottom: 1.5rem;
+}
+
+.cont-inpt-bx {
+  position: relative;
+  width: 100%;
+  height: 6rem;
+}
+
+.cont-inpt-bx input {
+  color: #6A6D77;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: .1rem solid #ddd;
+  transition: 400ms ease;
+
+}
+
+
+
+.cont-mesage-bx textarea {
+  width: 100%;
+  padding: 1rem 0;
+  color: #6A6D77;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: .1rem solid #ddd;
+  resize: none;
+  transition: 400ms ease;
+
+}
+
+.cont-mesage-bx textarea {
+  padding-top: 3rem;
+}
+
+.cont-inpt-bx input:focus,
+.cont-mesage-bx textarea:focus {
+  outline: none;
+}
+
+.cont-inpt-bx input:focus ,
+.cont-mesage-bx textarea:focus{
+  border-bottom-color: #5300CC;
+}
+
+.form-check-bx {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.form-check-bx input {
+  width: 2rem;
+  height: 2rem;
+
+}
+
+.form-check-bx input:focus {
+  box-shadow: none;
+  border-color: #ddd;
+}
+
+.form-check-bx input:checked {
+  background-color: #5300CC;
+  border-color: #5300CC;
+}
+
+
+.form-check-bx span {
+  color: #6A6D77;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.cont-form-btn {
+  position: relative;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 2.5rem;
+  border-radius: .8rem;
+  background-color: #5300CC;
+  color: #fff;
+  font-size: 1.4rem;
+  border: none;
+  margin-top: 1rem;
+  transition: 400ms ease;
+  border: .1rem solid #5300CC;
+}
+
+.cont-form-btn i{
+  transition: 400ms ease;
+}
+
+.cont-form-btn:hover{
+}
+
+.cont-form-btn:hover i{
+  transform: translateX(10px);
+}
+
+
+
+/* ________________________________ 
+Our contact comp CSS code end here 
+-------------------------- */
+
+
+/* ________________________________ 
+Our Dexa Token CSS code Starts here 
+-------------------------- */
+
+.dexa-token-comp {
+  position: relative;
+  width: 100%;
+  padding: 5rem 1.87rem;
+
+}
+
+.dexa-token-info-flex {
+  align-items: flex-start;
+}
+
+.dexa-token-info-flex h3 {
+  max-width: 60rem;
+}
+
+.dexa-token-info-flex h3 span {
+  color: #5300CC;
+}
+
+.dexa-token-info-flex P {
+  margin-bottom: 0;
+  margin-top: 1rem;
+
+}
+
+
+.token-img {
+  position: relative;
+  width: 60%;
+  margin: 3rem auto 0 auto;
+  padding: 7rem 0;
+}
+
+
+.token-img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: url('../public/images/bannerbg.png')no-repeat center center/cover;
+  z-index: -1;
+}
+
+.token-img img {
+  width: 100%;
+  height: auto;
+}
+
+
+.dexa-token-comp .last-center-text {
+  color: #110F42;
+
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  max-width: 60rem;
+  margin: 0 auto;
+  line-height: 1.67;
+}
+
+
+/* ________________________________ 
+Our Dexa Token CSS code end here 
+-------------------------- */
+
+
+/* ________________________________ 
+Our Get your worth  CSS code starts here 
+-------------------------- */
+
+.get-yr-wrth-flex {
+  align-items: flex-start;
+}
+
+.text-img-bx {
+  position: relative;
+  width: 70%;
+  margin: 1rem auto;
+  padding-block: 7rem;
+}
+
+.text-img-bx:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 40%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background: url('../public/images/bannerbg.png')no-repeat center center/cover;
+  z-index: -1;
+}
+
+.text-img-bx img {
+  width: 100%;
+  height: auto;
+}
+
+
+.going-once-img {
+  width: 80%;
+}
+
+
+
+/* ________________________________ 
+Our Get your worth  CSS code end here 
+-------------------------- */
+
+@media all and (max-width: 1280px) and (min-width: 1125px) {
+
+  .element-arow-bx {
+    top: 9rem;
+    left: 25rem;
+    width: 18rem;
+  }
+
+
+
+  .element-arow-bx2 {
+    top: 5rem;
+    left: 67rem;
+    width: 18rem;
+
+  }
+
+
+  .element-arow-bx3 {
+    top: 50%;
+    left: 95%;
+    transform: translateY(-50%);
+    width: 8rem;
+
+  }
+
+  .element-arow-bx4 {
+    bottom: 10rem;
+    left: 72rem;
+    width: 18rem;
+  }
+
+  .element-arow-bx5 {
+    bottom: 10rem;
+    left: 23rem;
+    width: 18rem;
+  }
+
+
+
+
+}
